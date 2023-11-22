@@ -1,0 +1,3 @@
+META-INF/spring-configuration-metadata.json
+io/clue2solve/pinecone/springboot/starter/config/PineconeDBProperties.class
+io/clue2solve/pinecone/springboot/starter/autoconfigure/PineconeDBAutoConfiguration.class
