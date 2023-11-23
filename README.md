@@ -1,6 +1,6 @@
 # Pinecone Spring Boot Starter
 
-This is a Spring Boot Starter for Pinecone, which simplifies the configuration of Pinecone in a Spring Boot application.
+This is a Spring Boot Starter for communicating with [Pinecone](https://pinecone.io), which simplifies the configuration of Pinecone in a Spring Boot application.
 
 This Starter uses the [pinecone-java-client](https://github.com/clue2solve/pinecone-java-client) and provides you an easy way to configure and inject the clients as described below. 
 
@@ -30,6 +30,7 @@ pinecone.db.apiKey=your-api-key
 
 ### Usage
 Once you've added the starter and configured your application, you can `@Autowire` the `PineconeDBClient` and `PineconeIndexClient` in your application:
+Please read more about these clients at [pinecone-java-client](https://github.com/clue2solve/pinecone-java-client), which is the underlying client exposed by this starter.
 
 ```Java
 @Autowired
